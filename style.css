@@ -1,0 +1,340 @@
+#space{
+    background-color: whitesmoke;
+    height:50px;
+}
+
+.contact{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#logo{
+    height:100px;
+    width:120px;
+}
+ .nav{
+    height:100px;
+}
+.navbar-nav{
+ padding-top: 25px;
+   font-size: 20px;
+font-weight: bold;
+
+}
+.menu-btn{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.icon-bar{
+    background-color:black;
+    margin-top: 20px;
+}
+
+#img{
+    height:500px;
+    width:100%;
+}
+.image{
+    position:relative;
+}
+#im{
+    height:100px;
+    width:100px;
+    margin-left: 160px;
+}
+#carousel{
+    background-color: grey;
+}
+
+.heading{
+    position:absolute;
+    height:250px;
+    width:600px;
+    z-index:1;
+    top:150px;
+    left:80px;
+}
+.heading2{
+    position:absolute;
+    height:250px;
+    width:600px;
+    z-index:1;
+    top:150px;
+    left:80px;
+    display:none;
+}
+.head{
+    color:white;
+    font-size: 50px;
+}
+.sub-head{
+    color:black;
+}
+#services{
+    margin-top: 50px;
+    color:rgb(15, 126, 218);
+    font-weight: bold;
+}
+#service-para{
+    margin-top: 30px;
+
+}
+.ser{
+    border-bottom: 2px solid red;
+}
+#features i{
+    font-size: 100px;
+}
+#service-para p{
+    font-size: 20px;
+}
+#head2{
+    font-size:50px; 
+    margin-top:50px;
+    color:black;
+    font-weight: bold;
+    
+}
+#banner2{
+    height:500px;
+    width:1100px;
+    margin-top: 20px;
+}
+#heading3{
+    font-size: 30px;
+    color:rgb(16, 148, 230);
+    
+}
+#heading4{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.para{
+    margin-top: 30px;
+    font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#spec i{
+    font-size: 30px;
+    margin-top: 13px;
+}
+#specification{
+    font-size: 20px;
+   margin-top: 20px!important;   
+}
+#heading5{
+    font-weight: bold;
+}
+.background{
+    background-color: gainsboro;
+    height:780px;
+}
+.form{
+    background-color: white;
+}
+.required h2:after{
+    content: "*";
+    color:red;
+}
+.form-heading{
+    color:lightskyblue;
+}
+.panel-body{
+    display:none;
+}
+.panel-heading{
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+}
+.panel-heading a{
+  
+    text-decoration-line: none!important;
+    color:black;
+    cursor: pointer;
+}
+#project{
+    background-color: gainsboro;
+   
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 2px solid blue;
+}
+.project-heading{
+    margin-top:50px;
+    margin-left: 20px;
+}
+.button{
+    margin-top: 60px;
+}
+.sub-heading{
+    font-size: 20px;
+    margin-left: 25px;  
+}
+.transparent{
+    height:300px;
+    background-image: url(team.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.transparent h2{
+    color:white;
+    margin-left: 30px;
+}
+.transparent-heading{
+    margin-top:50px;
+    font-weight: bold;
+}
+.transparent .icon{
+    font-size: 70px;
+    color:white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.trans{
+    font-size:40px!important;
+    color:white;
+    margin-top:30px!important;
+}
+.tran{
+    font-size: 20px;
+    color:rgb(21, 159, 245);
+}
+.digital h1{
+color:lightskyblue;
+}
+.transparent .i{
+    color:white;
+    font-size: 70px;
+}
+
+.digital p{
+    font-size: 20px;
+    text-align: justify;
+}
+.footer{
+    background-color:rgb(2, 43, 22);
+}
+.footer h3{
+    color:white;
+    margin-top: 50px;
+}
+.footer h4{
+   
+color:white;
+}
+ul{
+    list-style-type: none;
+}
+.footer ul{
+    color:rgb(194, 193, 193);
+    margin-left: -40px;
+    margin-top: 20px;
+}
+.footer li{
+    margin-top: 10px;
+}
+.footer p{
+    color:rgb(194, 193, 193);;
+}
+.footer logo{
+    height:100px;
+    width:100px;
+}
+@media (max-width:400px) {
+    #spec i{
+        margin-top: 20px;
+    }
+    #specification{
+        margin-top: 13px!important;
+    }
+}
+@media (min-width:410px) and (max-width:500px) {
+    #spec i{
+        margin-top: 15px;
+    }
+    #specification{
+        margin-top: 15px!important;
+    }
+}
+@media (min-width:768px) and (max-width:990px){
+    #spec i{
+        margin-top: 18px;
+    }
+    .transparent .i{
+       display:none;
+    }
+}
+@media (max-width:767px){
+    .contact{
+        font-size: 15px;
+    }
+    #logo{
+        height:70px;
+    }
+    .quote{
+      visibility: hidden;
+    }
+    .heading,.heading2{
+        width:300px;
+        height:150px;
+        left:20px;
+    }
+    .head{
+        color:white;
+        font-size: 20px;
+      
+    }
+    .sub-head{
+        color:black;
+        font-size: 10px;
+    }
+    #im{
+        height:100px;
+        width:100px;
+        margin-left: 10px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1023px){
+    #logo{
+        margin-left:0px;
+        width:70px;
+        height:70px;
+    }
+    .menu{
+       font-size:10px;
+       font-weight: bold;    
+   } 
+   .menu-btn{
+    visibility:visible;
+    margin-left:-10px!important;
+    margin-top: 0px!important;
+   }
+   .navbar-nav{
+margin-left:50px!important;
+margin-top: -50px!important;
+   }
+
+}
+@media (min-width:1024px) and (max-width:1200px){
+    #logo{
+        margin-left: 20px;
+        height:100px;
+        width:100px;
+    }
+    .navbar-nav{
+        font-size: 15px;
+        margin-top: -25px!important;
+        margin-left: 110px!important;
+    }
+    .menu-btn{
+        margin-left: 0px!important;
+        margin-top: 0px!important;
+    }
+}
+@media (min-width:1024px) and (max-width:1024px){
+    .transparent .i{
+        display:none;
+    }
+}
+
